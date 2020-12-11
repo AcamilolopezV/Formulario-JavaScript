@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Registro</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="contenedor">
+    <form action="" id="formulario" name="formulario" class="formulario">
+      <div class="contenedor-inputs">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="correo" placeholder="Correo Electronico">
+        <div class="sexo">
+          <input type="radio" name="sexo" id="hombre" value="hombre">
+          <label for="hombre" class="label-radio">Hombre</label>
+
+          <input type="radio" name="sexo" id="mujer" value="mujer">
+          <label for="mujer" class="label-radio">Mujer</label>
+        </div>
+        <div class="terminos">
+          <input type="checkbox" name="terminos" id="terminos">
+          <label for="terminos">Acepto Terminos y Condiciones</label>
+        </div>
+
+        <ul class="error">
+          
+        </ul>
+      </div>
+      <input type="submit" value="Registrate" class="btn">
+    </form>
+  </div>
+
+  <script src="formulario.js"></script>
+</body>
+</html>
