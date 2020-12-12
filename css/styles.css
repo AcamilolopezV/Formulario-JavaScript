@@ -50,9 +50,6 @@ body{
   margin-bottom: 20px;
 }
 
-.formulario .sexo .hombre{}
-.formulario .sexo .mujer{}
-
 .formulario .label-radio{
   background:rgba(245, 176, 65, .6) ;
   color: #fff;
@@ -64,7 +61,7 @@ body{
 }
 
 .formulario input[type="radio"]:checked + .label-radio{
-  background: #F5B041;
+  background: #f7aa2f;
 }
 
 .formulario .terminos{
@@ -101,6 +98,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bold;
+  outline: none;
 }
 
 .formulario .btn:hover{
